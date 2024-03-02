@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+// Import all modules
 import { cpus as _cpus, totalmem, freemem, platform, release } from "os";
 import { exec } from "child_process";
 import chalk from "chalk";
