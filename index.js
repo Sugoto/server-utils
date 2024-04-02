@@ -19,6 +19,7 @@ const alertThresholds = {
   networkTraffic: 100,
 };
 
+// Check the performance thresholds
 function checkPerformanceThresholds(
   cpuUsage,
   usedMemoryPercentage,
